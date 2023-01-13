@@ -1,0 +1,13 @@
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            redirect-uri: http://localhost:8080/login/oauth2/code/github
+            client-id: c5c1628ece3d248d500f
+            client-secret: efbfc03618f373d8fff51f369f4cf0207bbfc95c
+            scope: user
+
+debug: true
